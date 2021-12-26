@@ -8,9 +8,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+
 
 body {
     background-color: #d9dcd6;
@@ -50,6 +48,7 @@ header nav ul li {
 }
 /*end header styling*/
 
+/*start hero styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +57,32 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
-
+/*end hero styling*/
+.contents{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.content img{
+    max-height: 200px;
+}
+.float-left{
+    float: left;
+    margin-right: 25px;
+}
+.content p{
+    
+    font-size: 16px;
+    
+}
+/*
 .float-left {
     float: left;
     margin-right: 25px;
@@ -198,3 +222,4 @@ header nav ul li {
 .footer h2 {
     font-size: 20px;
 }
+*/
